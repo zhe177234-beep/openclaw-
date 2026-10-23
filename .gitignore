@@ -1,0 +1,37 @@
+# Secrets and phone runtime data
+.env
+.env.*
+!.env.example
+key.env*
+.config/claude-scnet/
+.bash_history
+.zsh_history
+*.key
+*.pem
+auth-profiles.json
+credentials.json
+.claude/
+.openclaw/
+node_modules/
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.original
+*.before-android-copy
+*.backup-*
+
+# Private media and generated video assets
+*.mp3
+*.wav
+*.m4a
+*.lrc
+*.mp4
+*.mov
+*.zip
+.uploads-*/
+out/
+dist/
+coverage/
+.DS_Store

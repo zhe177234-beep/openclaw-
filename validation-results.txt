@@ -1,0 +1,31 @@
+Validation date: 2026-10-23 (Asia/Shanghai)
+Scope: documentation and helper scripts in this repository; not a rerun on the user's Android phone.
+
+node --test tests/*.test.cjs
+Result: PASS — 12 tests; 0 failed, skipped or cancelled.
+
+Covered:
+- Claude launcher argument forwarding, SCNet model selection and pre-start shell/temp environment.
+- Explicit proxy variable cleanup without printing credentials.
+- SCNet dotenv preservation, private file mode, backup and unchanged default-model configuration.
+- 30 Android ancestor admission policy checks.
+- Rejection of unknown patch source bytes.
+- Automatic clone workaround scoped to this Android App, preserving explicit clone policies.
+- Upload token validation, media picker, Chinese filename and unchanged bytes.
+- No overwrite, path traversal rejection, disallowed executable extensions and empty-file rejection.
+- Oversize rejection and staging cleanup.
+
+Dependency fixtures:
+- @openclaw/fs-safe 0.24.2 tarball verified against npm sha512 integrity.
+- Three fixture files verified against the patch scripts' pinned SHA-256 hashes.
+- Fixtures are original source only; no dependency installation or native-helper execution.
+
+node scripts/validate-repository.cjs
+Result: PASS — 11 JS files, 3 Bash files, 4 JSON files, 25 local Markdown links.
+
+Unverified on device:
+- New helper-script wrappers and their device-specific recovery branches.
+- Actual API keys, current quotas, network nodes and future provider catalog changes.
+- Vision-model call, Android Remotion rendering and final MV export.
+
+No phone credentials, login codes, raw screenshots, personal media or state databases are included.

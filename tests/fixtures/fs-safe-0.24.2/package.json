@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Unmodified MIT-licensed fs-safe 0.24.2 source fixtures; never installed or executed as a dependency"
+}

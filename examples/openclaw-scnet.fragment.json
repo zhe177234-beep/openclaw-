@@ -1,0 +1,25 @@
+{
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "scnet": {
+        "baseUrl": "https://api.scnet.cn/api/llm/anthropic",
+        "api": "anthropic-messages",
+        "apiKey": "${SCNET_API_KEY}",
+        "models": [
+          {
+            "id": "DeepSeek-V4.1-Flash-1017-Event",
+            "name": "SCNet DeepSeek"
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "scnet/DeepSeek-V4.1-Flash-1017-Event": {}
+      }
+    }
+  }
+}
