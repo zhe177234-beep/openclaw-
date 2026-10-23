@@ -12,12 +12,14 @@
 | Claude Code 接入 SCNet DeepSeek | 已验证 | JS 版 Claude Code 2.1.63 启动；创建 `hello.js`，Bash 执行后实际输出“你好，DeepSeek” |
 | 微信 ClawBot 接入 OpenClaw | 已验证 | 插件 2.4.10 加载，通道 `enabled, configured, running`；微信收到回复 |
 | 微信会话切换 SCNet DeepSeek | 已验证 | `/model` 选择成功，后续日志 `provider=scnet`、`status=200` |
-| 图片生成 | 已验证生成 | 日志出现 PNG 路径及 `successful generation`；异步完成通知和回传曾发生超时、TLS 错误 |
+| 图片生成 | 已成功（用户实测确认） | 2026-10-23 用户补充确认生图已成功；此前日志也出现 PNG 路径及 `successful generation` |
 | 微信图片回传 | 部分证据 | 对话后续出现“图片已经收到”的转述，但并未提供最终投递成功日志，不能据此保证长期稳定 |
-| GPT 作为读图模型 | 待验证 | 已给出 `models set-image` 配置方法，未见配置及读图成功回执 |
+| 图片识别 | 已成功（用户实测确认） | 2026-10-23 用户补充确认识图已成功；最终视觉模型标识与配置未提供，不推断具体服务 |
 | 记忆向量索引 | 未解决 | 曾返回 OpenAI embeddings `429 / insufficient_quota / credit_balance_exhausted` |
 | Remotion 约 3 分钟歌词 MV | 未完成 | 素材读取出现 `Permission denied`；尚未验证 FFmpeg、浏览器及最终视频渲染 |
 | 安卓共享存储“完全访问” | 未解决 | 当前 Claw App 没有声明所有文件访问权限；Claude 自动批准不能增加安卓权限 |
+
+最新进展：用户于 2026-10-23 明确反馈“识图功能和生图功能都已成功”。下文保留早期报错作为排障记录；历史失败不代表当前功能仍不可用。
 
 ## 先区分四个组件
 

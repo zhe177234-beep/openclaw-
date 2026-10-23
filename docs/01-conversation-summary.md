@@ -107,7 +107,7 @@ SCNet 先在 Claude Code 配置成功，后来再单独接入 OpenClaw。会话�
 - `agents.defaults.mediaModels.image`：生成图片。查询有效但未设置时，运行时默认值适用。
 - `agents.defaults.imageModel`：聊天模型无法接收图片时的读图工具模型。
 
-给出了 `openclaw models set-image openai/gpt-6-astra`，但尚未收到读图成功回执，不标为完成。
+早期给出了 `openclaw models set-image openai/gpt-6-astra`。归档后，用户于 2026-10-23 补充确认：“识图功能和生图功能都已成功。”因此，两项功能现记录为用户实测成功；最终采用的视觉模型标识、配置和新日志未提供，不把早期建议当成最终实际配置。
 
 ## 10. Remotion MV 与自动执行的边界
 
@@ -119,4 +119,4 @@ SCNet 先在 Claude Code 配置成功，后来再单独接入 OpenClaw。会话�
 
 ## 最终结论
 
-本次成果是：安卓上的 OpenClaw 网关、GPT 接入、SCNet DeepSeek 编程助手、微信通道、会话模型切换以及一次成功图片生成。待完成的是：稳定的媒体投递验证、读图接入验证、记忆服务修复、共享存储长期访问方案，以及 Remotion MV 的素材导入和真实渲染。
+本次成果是：安卓上的 OpenClaw 网关、GPT 接入、SCNet DeepSeek 编程助手、微信通道、会话模型切换，以及用户最新实测确认成功的识图和生图功能。待完成的是：长期媒体投递稳定性验证、记忆服务修复、共享存储长期访问方案，以及 Remotion MV 的素材导入和真实渲染。

@@ -26,6 +26,10 @@ Result: PASS — 11 JS files, 3 Bash files, 4 JSON files, 25 local Markdown link
 Unverified on device:
 - New helper-script wrappers and their device-specific recovery branches.
 - Actual API keys, current quotas, network nodes and future provider catalog changes.
-- Vision-model call, Android Remotion rendering and final MV export.
+- Final vision-model identity/configuration archival, Android Remotion rendering and final MV export.
+
+Latest device feedback (2026-10-23):
+- User explicitly confirmed that image recognition and image generation both succeeded.
+- This is user-reported device validation, not a local test result; final vision configuration was not supplied.
 
 No phone credentials, login codes, raw screenshots, personal media or state databases are included.
